@@ -26,7 +26,7 @@ logging.basicConfig(  # Чтобы бот работал успешно, соз�
     logging.StreamHandler()])
 
 # Создаём Telegram бота и диспетчер:
-Bot = aiogram.Bot("5891681954:AAHnkOkVpyRI3oZjwckgHiGwZnmwF_gfk4M")
+Bot = aiogram.Bot("TOKEN")
 DP = aiogram.Dispatcher(Bot, storage=MemoryStorage())
 
 
